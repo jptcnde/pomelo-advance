@@ -47,7 +47,7 @@ async function refundTnx(event) {
     await db.update(params).promise();
 
     return {
-      status: 200,
+      statusCode: 200,
       // not recommended for real world app
       headers: { 'Access-Control-Allow-Origin': '*' },
       body: JSON.stringify({})
@@ -55,7 +55,7 @@ async function refundTnx(event) {
 
   } catch(e) {
     return {
-      status: 500,
+      statusCode: 500,
       statusText: e.message
     };
   }

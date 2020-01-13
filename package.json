@@ -17,19 +17,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
     "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.25",
-    "@types/node": "^13.1.6",
-    "@types/react": "^16.9.17",
-    "@types/react-dom": "^16.9.4",
-    "@types/react-redux": "^7.1.5",
-    "@types/react-test-renderer": "^16.9.1",
-    "@types/redux-logger": "^3.0.7",
-    "@types/styled-components": "^4.4.2",
     "aws-sdk": "^2.601.0",
     "date-fns": "^2.9.0",
     "i18next": "^19.0.3",
     "i18next-browser-languagedetector": "^4.0.1",
-    "jest": "^24.9.0",
     "numbro": "^2.1.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -38,10 +29,7 @@
     "react-scripts": "3.3.0",
     "react-test-renderer": "^16.12.0",
     "redux-logger": "^3.0.6",
-    "styled-components": "^4.4.1",
-    "ts-jest": "^24.3.0",
-    "typesafe-actions": "^5.1.0",
-    "typescript": "^3.7.4"
+    "styled-components": "^4.4.1"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -61,8 +49,20 @@
   "devDependencies": {
     "concurrently": "^5.0.2",
     "eslint": "^6.8.0",
+    "ts-jest": "^24.3.0",
+    "typesafe-actions": "^5.1.0",
+    "typescript": "^3.7.4",
     "serverless-dotenv-plugin": "^2.1.1",
     "serverless-offline": "^5.12.1",
-    "serverless-plugin-tables": "^1.0.2"
+    "serverless-plugin-tables": "^1.0.2",
+    "@types/jest": "^24.0.25",
+    "@types/node": "^13.1.6",
+    "jest": "^24.9.0",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-redux": "^7.1.5",
+    "@types/react-test-renderer": "^16.9.1",
+    "@types/redux-logger": "^3.0.7",
+    "@types/styled-components": "^4.4.2"
   }
 }
