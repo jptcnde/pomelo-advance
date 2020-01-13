@@ -6,11 +6,18 @@ plugins:
   - serverless-offline
   - serverless-dotenv-plugin
   - serverless-plugin-tables
-
+package:
+  exclude:
+    - src/**
+    - build/**
+    - public/**
+  include:
+    - lambda/**
 
 provider:
   name: aws
   runtime: nodejs12.x
+  stage: ${env:STAGE}
   environment:
     DYNAMODB_TABLE: ${self:service}-${opt:stage, self:provider.stage}
   iamRoleStatements:
